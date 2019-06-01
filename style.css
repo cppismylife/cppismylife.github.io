@@ -211,7 +211,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
   .flex-box {
     display: flex;
@@ -405,7 +405,7 @@ body {
   .flex {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
   }
   .flex-box {
