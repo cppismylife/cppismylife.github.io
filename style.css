@@ -26,7 +26,109 @@ body {
     background-size: cover;
   }
 }
+header {
+  background: rgba(0, 0, 0, 0.562);
+  padding: 20px 10px;
+}
+.main-header {
+  background: rgb(49, 49, 49);
+  padding: 20px 10px;
+}
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+ul {
+  padding: 0;
+  text-align: center;
+}
+nav {
+  margin-top: 30px;
+}
+.head {
+  margin: 10px;
+  text-align: center;
+  color: white;
+}
+.zagl {
+  text-align: center;
+}
+.per {
+  margin-left: 20px;
+}
+.perv {
+  width: 100vw;
+  object-fit: cover;
+  max-height: 50vh;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+.a {
+  text-decoration: none;
+  color: white;
+  margin: 0px 5px 10px 5px;
+  font-size: 0.8rem;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.che {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.zdes {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  margin-top: 35vh;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0);
+  padding: 0 20px;
+}
+.first {
+  height: 100vh;
+  animation: first 15s infinite;
+  position: relative;
+}
+.zatem {
+  background-color: rgba(0, 0, 0, 0.466);
+  height: 100vh;
+  position: relative;
+}
+.footer {
+  background-color: rgb(49, 49, 49);
+  color: white;
+  font-size: 1rem;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.h3 {
+  margin: 5px 0 15px 0;
+}
+.yura {
+  margin: 10px 0 0 0;
+}
+.vmeste {
+  display: none;
+}
+.perv {
+  margin: 0 auto;
+}
+.osn {
+  display: block;
+}
+.spanishko {
+  margin: 0 auto;
+}
 @media (min-width: 1366px) {
+  .che {
+    display: block;
+  }
+  .h3 {
+    margin: 25px 0 30px 20px;
+  }
   .first {
     height: 101vh;
     animation: first 15s infinite;
@@ -122,8 +224,10 @@ body {
     padding-top: 20px;
     padding-left: 30px;
     font-size: 1.2rem;
-    height: 20vh;
+    min-height: 10vh;
     transition: 1s;
+    padding-bottom: 20px;
+    box-sizing: border-box;
   }
   .perv1 {
     width: 550px;
@@ -162,10 +266,8 @@ body {
     transition: 1s;
   }
   .a {
-    color: white;
-    text-decoration: none;
     margin: 0 10px;
-    border: white 1px solid;
+    font-size: 0.9rem;
     padding: 15px;
     border-radius: 10px;
   }
@@ -221,10 +323,16 @@ body {
   .y {
     font-size: 1rem;
   }
+  .yura {
+    margin: 20px 20px 10px 20px;
+  }
 }
 @media (min-width: 1600px) {
   .h3 {
     margin: 20px;
+  }
+  .che {
+    display: block;
   }
   .first {
     height: 100vh;
@@ -318,13 +426,12 @@ body {
     padding-top: 20px;
     padding-left: 30px;
     padding-bottom: 20px;
-    box-sizing: border-box;
-    min-height: 200px;
+    min-height: 10vh;
     font-size: 1.2rem;
     transition: 1s;
   }
   .yura {
-    margin: 0;
+    margin: 20px;
   }
   .perv1 {
     width: 650px;
@@ -363,12 +470,10 @@ body {
     transition: 1s;
   }
   .a {
-    color: white;
-    text-decoration: none;
     margin: 0 10px;
-    border: white 1px solid;
     padding: 15px;
     border-radius: 10px;
+    font-size: 1.1rem;
   }
   .a:active {
     background-color: rgba(255, 255, 255, 0.877);
