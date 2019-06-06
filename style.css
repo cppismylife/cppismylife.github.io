@@ -52,14 +52,40 @@ nav {
 }
 .zagl {
   text-align: center;
+  font-size: 1.5rem;
 }
 .per {
   margin-left: 20px;
+  margin-bottom: 35px;
 }
 .perv {
-  width: 100vw;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.466);
+  width: 80%;
   object-fit: cover;
-  max-height: 50vh;
+  height: 50vh;
+  transform: translateX(10vw);
+}
+.perv1 {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.466);
+  width: 80%;
+  object-fit: cover;
+  height: 60vh;
+  transform: translateX(10vw);
+}
+.gal {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.466);
+  width: 95%;
+  height: 40vh;
+  border-radius: 5px;
+  object-fit: cover;
+  transform: translateX(3vw);
+}
+p {
+  text-align: center;
+}
+.para1 {
+  text-align: justify;
+  margin: 20px 15px 30px 15px;
 }
 .flex {
   display: flex;
@@ -112,9 +138,6 @@ nav {
 }
 .vmeste {
   display: none;
-}
-.perv {
-  margin: 0 auto;
 }
 .osn {
   display: block;
@@ -188,12 +211,12 @@ nav {
   }
   .perv {
     width: 550px;
+    height: 100%;
     border: 2px solid rgba(0, 0, 0, 0.87);
-    border-radius: 40px;
-    transition: 1.5s ease-in-out;
+    border-radius: 30px;
     margin-left: 60px;
     display: inline-block;
-    transition: 6s;
+    transform: translateX(0);
     position: relative;
     z-index: 1;
   }
@@ -211,7 +234,7 @@ nav {
     font-size: 1.1rem;
   }
   p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding-bottom: 20px;
   }
   .osn {
@@ -231,18 +254,21 @@ nav {
   }
   .perv1 {
     width: 550px;
+    transform: translateX(0);
+    height: 100%;
     border: 2px solid rgba(0, 0, 0, 0.87);
-    border-radius: 40px;
+    border-radius: 30px;
     margin-left: 60px;
     display: inline-block;
     margin-bottom: 50px;
     z-index: 1;
   }
   .gal {
-    height: 40vh;
-    width: 35vw;
+    height: 45vh;
+    width: 44vw;
     margin: 90px 0 30px 0;
-    border-radius: 20px;
+    border-radius: 5px;
+    transform: translateX(0);
     object-fit: cover;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
   }
@@ -292,6 +318,7 @@ nav {
     border: 2px solid black;
     border-radius: 4px;
     top: 90%;
+    display: block;
     left: 89%;
     width: 10%;
     box-sizing: border-box;
@@ -302,7 +329,7 @@ nav {
     transition: 0.5s;
     padding: 3vh 5px 0 5px;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-align: center;
   }
   .vmeste:hover {
@@ -321,7 +348,7 @@ nav {
     flex-wrap: wrap;
   }
   .y {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .yura {
     margin: 20px 20px 10px 20px;
@@ -388,13 +415,12 @@ nav {
   .perv {
     width: 650px;
     border: 2px solid rgba(0, 0, 0, 0.87);
-    border-radius: 40px;
-    transition: 1.5s ease-in-out;
+    border-radius: 30px;
     margin-left: 60px;
     display: inline-block;
-    transition: 6s;
     position: relative;
     z-index: 1;
+    transform: translateX(0);
   }
   .per {
     text-align: center;
@@ -410,11 +436,11 @@ nav {
     font-size: 1.3rem;
   }
   p {
-    font-size: 1.15rem;
+    font-size: 1.3rem;
     padding-bottom: 20px;
   }
   .y {
-    font-size: 1.15rem;
+    font-size: 1.3rem;
   }
   .osn {
     display: inline-block;
@@ -436,17 +462,18 @@ nav {
   .perv1 {
     width: 650px;
     border: 2px solid rgba(0, 0, 0, 0.87);
-    border-radius: 40px;
+    border-radius: 30px;
     margin-left: 60px;
     display: inline-block;
     margin-bottom: 50px;
     z-index: 1;
   }
   .gal {
-    height: 40vh;
-    width: 35vw;
+    height: 50vh;
+    width: 44vw;
     margin: 90px 0 30px 0;
-    border-radius: 20px;
+    border-radius: 5px;
+    transform: translateX(0);
     object-fit: cover;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
   }
@@ -491,6 +518,7 @@ nav {
     border-radius: 4px;
     top: 90%;
     left: 89%;
+    display: block;
     width: 10%;
     box-sizing: border-box;
     height: 9vh;
