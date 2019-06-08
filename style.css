@@ -48,6 +48,7 @@ nav {
 .head {
   margin: 10px;
   text-align: center;
+  font-size: 1.7rem;
   color: white;
 }
 .zagl {
@@ -109,9 +110,19 @@ p {
   font-size: 2rem;
   text-align: center;
   color: white;
-  margin-top: 27vh;
+  margin-top: 10vh;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0);
   padding: 0 20px;
+}
+@media (min-height: 845px) {
+  .zdes {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    margin-top: 35vh;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0);
+    padding: 0 20px;
+  }
 }
 .first {
   height: 100vh;
@@ -141,9 +152,6 @@ p {
 }
 .osn {
   display: block;
-}
-.spanishko {
-  margin: 0 auto;
 }
 @media (min-width: 1366px) {
   .che {
